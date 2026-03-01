@@ -3856,6 +3856,16 @@
                 "platform": "esp32-s3",
                 "firmware": "Unified_ESP32S3_2400_RX"
             }
+        },
+        "rx_900": {
+            "weact-h743": {
+                "product_name": "TD DIY STM32H7 900RX",
+                "lua_name": "TD STM 900RX",
+                "layout_file": "DIY 900 TTGO V1.json",
+                "upload_methods": ["stlink", "dfu"],
+                "platform": "stm32",
+                "firmware": "DIY_900_RX_WeAct_Mini_H743"
+            }
         }
     },
     "tunerc": {
