@@ -3976,6 +3976,20 @@
             }
         }
     },
+    "titan_dynamics": {
+        "name": "Titan Dynamics",
+        "rx_2400": {
+            "td_rx": {
+                "product_name": "TD Test RX - DO NOT USE",
+                "lua_name": "TD TEST RX",
+                "layout_file": "TD test RX.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.5.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_2400_RX"
+            }
+        }
+    },
     "tunerc": {
         "name": "TuneRC",
         "rx_2400": {
