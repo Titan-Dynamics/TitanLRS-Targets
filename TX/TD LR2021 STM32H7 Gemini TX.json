@@ -15,6 +15,15 @@
   "radio_dcdc": true,
   "radio_tcxo": 6,
   "radio_tcxo_delay": 96000,
+  "radio_rfsw_ctrl": [
+    0,
+    0,
+    4,
+    24,
+    255,
+    16,
+    8
+  ],
   "config_flash_cs": "PD6",
   "config_flash_sck": "PB3",
   "config_flash_miso": "PB4",
