@@ -4097,11 +4097,11 @@
         "name": "Titan Dynamics",
         "tx_dual": {
             "lr2021_gemini_stm32h7_tx": {
-                "product_name": "Titan Dynamics LR2021 STM32H7 TX Gemini",
-                "lua_name": "TD LR2021 G TX",
+                "product_name": "Titan Dynamics LR2021 STM32H7 Gemini TX",
+                "lua_name": "TD LR2021-G TX",
                 "layout_file": "TD LR2021 STM32H7 Gemini TX.json",
                 "upload_methods": ["dfu"],
-                "min_version": "4.99.0-local",
+                "min_version": "4.3.0-TD",
                 "platform": "stm32",
                 "firmware": "Unified_STM32H743_LR2021_TX",
                 "dfu": {"address": "0x08000000"},
@@ -4110,11 +4110,11 @@
         },
         "rx_dual": {
             "lr2021_gemini_stm32h7_rx": {
-                "product_name": "Titan Dynamics LR2021 STM32H7 RX Gemini",
-                "lua_name": "TD LR2021 G RX",
+                "product_name": "Titan Dynamics LR2021 STM32H7 Gemini RX",
+                "lua_name": "TD LR2021-G RX",
                 "layout_file": "TD LR2021 STM32H7 Gemini RX.json",
                 "upload_methods": ["dfu"],
-                "min_version": "4.99.0-local",
+                "min_version": "4.3.0-TD",
                 "platform": "stm32",
                 "firmware": "Unified_STM32H743_LR2021_RX",
                 "dfu": {"address": "0x08000000"},

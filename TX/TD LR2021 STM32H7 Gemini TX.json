@@ -13,6 +13,8 @@
   "radio_dio1_2": "PE6",
   "radio_busy_2": "PE15",
   "radio_dcdc": true,
+  "radio_tcxo": 6,
+  "radio_tcxo_delay": 96000,
   "config_flash_cs": "PD6",
   "config_flash_sck": "PB3",
   "config_flash_miso": "PB4",
@@ -21,27 +23,30 @@
   "led_red_invert": true,
   "button": "PE2",
   "button_active_high": true,
+  "misc_fan_en": "PA8",
   "power_min": 0,
-  "power_high": 3,
-  "power_max": 3,
-  "power_default": 0,
+  "power_high": 6,
+  "power_max": 6,
+  "power_default": 2,
   "power_control": 0,
   "power_values": [
-    19,
-    25,
-    31,
-    37
-  ],
-  "power_values2": [
-    19,
-    25,
-    31,
-    37
+    -38,
+    -30,
+    -24,
+    -18,
+    -10,
+    -4,
+    4,
+    18
   ],
   "power_values_dual": [
-    0,
-    8,
-    16,
-    24
+    -38,
+    -29,
+    -23,
+    -16,
+    -3,
+    10,
+    10,
+    10
   ]
 }
