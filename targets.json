@@ -4119,6 +4119,17 @@
                 "firmware": "Unified_STM32H743_LR2021_RX",
                 "dfu": {"address": "0x08000000"},
                 "usb": {"app": {"vendorId": 4617, "productId": 1}}
+            },
+            "lr2021_gemini_lite_stm32f4_rx": {
+                "product_name": "Titan Dynamics Lite RX",
+                "lua_name": "TD Lite RX",
+                "layout_file": "TD LR2021 STM32F4 Lite RX.json",
+                "upload_methods": ["dfu"],
+                "min_version": "4.4.0-TD",
+                "platform": "stm32",
+                "firmware": "Unified_STM32F411_LR2021_RX",
+                "dfu": {"address": "0x08000000"},
+                "usb": {"app": {"vendorId": 4617, "productId": 1}}
             }
         }
     }
